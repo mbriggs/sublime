@@ -1,0 +1,159 @@
+[
+  {
+    "keys": ["Y"],
+    "command": "set_action_motion",
+    "args": {
+      "action": "vi_copy",
+      "motion": "vi_move_to_hard_eol",
+      "motion_inclusive": true,
+      "motion_args": {
+        "extend": true,
+        "repeat": 1
+      }
+    },
+    "context": [{"key": "setting.command_mode"}]
+  },
+
+  {
+    "keys": ["tab"],
+    "command": "reindent",
+    "context": [{"key": "setting.command_mode"}]
+  },
+
+  {
+    "keys": ["`"],
+    "command": "show_panel",
+    "args": {
+      "panel": "console",
+      "toggle": true
+    },
+    "context": [{"key": "setting.command_mode"}]
+  },
+
+  {
+    "keys": ["H"],
+    "command": "set_motion",
+    "args": {
+      "clip_to_line": true,
+      "motion": "vi_move_to_first_non_white_space_character",
+      "motion_args": {
+        "extend": true
+      }
+    },
+    "context": [{"key": "setting.command_mode"}]
+  },
+
+  {
+    "keys": ["L"],
+    "command": "set_motion",
+    "args": {
+      "clip_to_line": true,
+      "motion": "vi_move_to_hard_eol",
+      "motion_args": {
+        "extend": true
+      }
+    },
+    "context": [{"key": "setting.command_mode"}]
+  },
+
+  {
+    "keys": ["!"],
+    "command": "shell_prompt",
+    "context": [{"key": "setting.command_mode"}]
+  },
+
+  {
+    "keys": ["super+j"],
+    "command": "split_navigation",
+    "args": {"direction": "up"},
+    "context": [{"key": "setting.command_mode"}]
+  },
+
+  {
+    "keys": ["alt+."],
+    "command": "navigate_to_definition",
+    "context": [{"key": "setting.command_mode"}]
+  },
+
+  {
+    "keys": ["e"],
+    "command": "file_navigator",
+    "context": [{"key": "setting.command_mode"}]
+  },
+  {
+    "keys": ["b"],
+    "command": "goto_open_file",
+    "args": {"active_group": false},
+    "context": [{"key": "setting.command_mode"}]
+  },
+
+  {
+    "keys": ["ctrl+="],
+    "command": "erb",
+    "context": [{"key": "setting.command_mode"}]
+   },
+
+  {
+    "keys": ["B"],
+    "command": "goto_recent",
+    "context": [{"key": "setting.command_mode"}]
+   },
+
+  {
+    "keys": ["f1"],
+    "command": "git_status",
+    "context": [{"key": "setting.command_mode"}]
+  },
+
+  {
+    "keys": ["r"],
+    "command": "git_branch",
+    "context": [{"key": "setting.command_mode"}]
+  },
+
+  {
+    "keys": ["f2"],
+    "command": "git_add_choice",
+    "context": [{"key": "setting.command_mode"}]
+  },
+
+  {
+    "keys": ["f3"],
+    "command": "git_commit",
+    "context": [{"key": "setting.command_mode"}]
+  },
+
+  {
+    "keys": ["f4"],
+    "command": "git_push",
+    "context": [{"key": "setting.command_mode"}]
+  },
+
+  {
+    "keys": ["f5"],
+    "command": "git_pull",
+    "context": [{"key": "setting.command_mode"}]
+  },
+
+  {
+    "keys": ["O"],
+    "command": "rails_related_files",
+    "args": { "index": -1 },
+    "context": [{"key": "setting.command_mode"}]
+  },
+
+  { "keys": ["alt+]"], "command": "indent" },
+  { "keys": ["alt+["], "command": "unindent" },
+
+  { "keys": [" ", "m"], "command": "list_rails_models", "context": [{"key": "setting.command_mode"}] },
+  { "keys": [" ", "c"], "command": "list_rails_controllers", "context": [{"key": "setting.command_mode"}] },
+  { "keys": [" ", "v"], "command": "list_rails_views", "context": [{"key": "setting.command_mode"}] },
+  { "keys": [" ", "h"], "command": "list_rails_helpers", "context": [{"key": "setting.command_mode"}] },
+  { "keys": [" ", "x"], "command": "list_rails_fixtures", "context": [{"key": "setting.command_mode"}] },
+  { "keys": [" ", "t"], "command": "list_rails_tests", "context": [{"key": "setting.command_mode"}] },
+  { "keys": [" ", "i"], "command": "list_rails_javascripts", "context": [{"key": "setting.command_mode"}] },
+  { "keys": [" ", "y"], "command": "list_rails_stylesheets", "context": [{"key": "setting.command_mode"}] },
+
+  { "keys": ["ctrl+["], "command": "previous_edit" },
+  { "keys": ["ctrl+]"], "command": "next_edit" }
+  ]
