@@ -3,6 +3,8 @@
 	"installed_packages":
 	[
 		"All Autocomplete",
+		"AngularJS",
+		"Apidock",
 		"Backbone.js",
 		"Backbone.Marionette",
 		"Build on Save",
@@ -13,6 +15,7 @@
 		"Git",
 		"GotoOpenFile",
 		"GotoRecent",
+		"Guard",
 		"Haml",
 		"Handlebars",
 		"HTML5",
@@ -37,6 +40,7 @@
 		"Sass",
 		"SCSS",
 		"SCSS Snippets",
+		"Search Stack Overflow",
 		"Shell Turtlestein",
 		"Simple Rails Navigator",
 		"SplitScreen-Resizer",
@@ -44,8 +48,10 @@
 		"Sublime File Navigator",
 		"sublime-split-navigation",
 		"SublimeBlockCursor",
+		"SublimeCodeIntel",
 		"SublimeLinter",
 		"SyncedSideBar",
+		"Tag",
 		"VintageEx"
 	]
 }
