@@ -34,8 +34,7 @@
 
   {
     "keys": ["tab"],
-    "command": "reindent",
-    "context": [{"key": "setting.command_mode"}]
+    "command": "reindent"
   },
 
   {
