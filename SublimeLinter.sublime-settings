@@ -1,8 +1,8 @@
 {
   "sublimelinter_executable_map": {
-    "ruby": "~/.rvm/ruby"
-
+    "ruby": "~/.rvm/bin/ruby"
   },
+  "sublimelinter_popup_errors_on_save": true,
   "jshint_options": {
       "multistr": true
   ,   "strict": false

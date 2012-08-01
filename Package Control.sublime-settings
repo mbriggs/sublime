@@ -1,11 +1,10 @@
 {
-	"auto_upgrade_last_run": 1343825670,
+	"auto_upgrade_last_run": 1343829900,
 	"installed_packages":
 	[
 		"All Autocomplete",
 		"Backbone.js",
 		"Backbone.Marionette",
-		"Build on Save",
 		"Capybara Snippets",
 		"CTags",
 		"Edit History",
@@ -44,7 +43,6 @@
 		"sublime-split-navigation",
 		"SublimeBlockCursor",
 		"SublimeLinter",
-		"SyncedSideBar",
 		"VintageEx"
 	]
 }

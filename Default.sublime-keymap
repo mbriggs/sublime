@@ -151,8 +151,8 @@
   { "keys": [" ", "h"], "command": "list_rails_helpers", "context": [{"key": "setting.command_mode"}] },
   { "keys": [" ", "x"], "command": "list_rails_fixtures", "context": [{"key": "setting.command_mode"}] },
   { "keys": [" ", "t"], "command": "list_rails_tests", "context": [{"key": "setting.command_mode"}] },
-  { "keys": [" ", "i"], "command": "list_rails_javascripts", "context": [{"key": "setting.command_mode"}] },
-  { "keys": [" ", "y"], "command": "list_rails_stylesheets", "context": [{"key": "setting.command_mode"}] },
+  { "keys": [" ", "j"], "command": "list_rails_javascripts", "context": [{"key": "setting.command_mode"}] },
+  { "keys": [" ", "s"], "command": "list_rails_stylesheets", "context": [{"key": "setting.command_mode"}] },
 
   { "keys": ["ctrl+["], "command": "previous_edit" },
   { "keys": ["ctrl+]"], "command": "next_edit" }
