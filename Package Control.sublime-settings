@@ -1,10 +1,11 @@
 {
-	"auto_upgrade_last_run": 1343833942,
+	"auto_upgrade_last_run": 1343837569,
 	"installed_packages":
 	[
 		"All Autocomplete",
 		"Backbone.js",
 		"Backbone.Marionette",
+		"Build on Save",
 		"Capybara Snippets",
 		"CTags",
 		"Edit History",
