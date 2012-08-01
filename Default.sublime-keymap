@@ -1,5 +1,23 @@
 [
   {
+    "keys": ["ctrl+n"],
+    "command": "move",
+    "args": {
+      "forward": true,
+      "by": "lines"
+    }
+  },
+
+  {
+    "keys": ["ctrl+p"],
+    "command": "move",
+    "args": {
+      "forward": false,
+      "by": "lines"
+    }
+  },
+
+  {
     "keys": ["Y"],
     "command": "set_action_motion",
     "args": {

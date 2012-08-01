@@ -4,6 +4,7 @@
 	"color_scheme": "Packages/Color Scheme - Default/Solarized (Light).tmTheme",
 	"detect_indentation": false,
 	"draw_white_space": "all",
+	"font_size": 11,
 	"ignored_packages":
 	[
 	],
