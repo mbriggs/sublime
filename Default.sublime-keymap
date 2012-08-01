@@ -1,4 +1,16 @@
 [
+  { "keys": [",", "t", "t"], "command": "run_single_ruby_test", "context": [{"key": "setting.command_mode"}] }, // single test
+    
+  { "keys": [",", "t", "f"], "command": "run_all_ruby_test", "context": [{"key": "setting.command_mode"}] }, // test file
+  { "keys": [",", "t", "l"], "command": "run_last_ruby_test", "context": [{"key": "setting.command_mode"}] }, // test file
+
+  { "keys": [",", "t", "p"], "command": "show_test_panel", "context": [{"key": "setting.command_mode"}] }, // show test panel
+
+  { "keys": [",", "t", ","], "command": "switch_between_code_and_test", "args": {"split_view": false}, "context" : [
+    { "key": "selector", "operator": "equal", "operand": "source.ruby", "match_all": true },
+    { "key": "setting.command_mode" }
+  ]},
+
   {
     "keys": ["ctrl+n"],
     "command": "move",
