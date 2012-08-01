@@ -123,6 +123,18 @@
     "context": [{"key": "setting.command_mode"}]
   },
 
+  {
+    "keys": ["f4"],
+    "command": "git_push",
+    "context": [{"key": "setting.command_mode"}]
+  },
+
+  {
+    "keys": ["f5"],
+    "command": "git_pull",
+    "context": [{"key": "setting.command_mode"}]
+  },
+
   { "keys": ["alt+]"], "command": "indent" },
   { "keys": ["alt+["], "command": "unindent" },
 
