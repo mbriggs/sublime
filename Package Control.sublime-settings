@@ -1,5 +1,5 @@
 {
-	"auto_upgrade_last_run": 1343829900,
+	"auto_upgrade_last_run": 1343833942,
 	"installed_packages":
 	[
 		"All Autocomplete",
@@ -43,6 +43,7 @@
 		"sublime-split-navigation",
 		"SublimeBlockCursor",
 		"SublimeLinter",
+		"SyncedSideBar",
 		"VintageEx"
 	]
 }
