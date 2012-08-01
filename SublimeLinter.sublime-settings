@@ -1,0 +1,25 @@
+{
+  "sublimelinter_executable_map": {
+    "ruby": "~/.rvm/ruby"
+
+  },
+  "jshint_options": {
+      "multistr": true
+  ,   "strict": false
+  ,   "eqeqeq": false
+  ,   "plusplus": true
+  ,   "regexp": true
+  ,   "boss": true
+  ,   "trailing": true
+  ,   "nonew": true
+  ,   "noarg": true
+  ,   "newcap": true
+  ,   "latedef": true
+  ,   "immed": true
+  ,   "asi": false
+  ,   "bitwise": true
+  ,   "forin": true
+  ,   "noempty": true
+  ,   "curly": true
+  }
+}
