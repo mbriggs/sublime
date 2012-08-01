@@ -76,6 +76,11 @@
   },
 
   {
+    "keys": ["e"],
+    "command": "file_navigator",
+    "context": [{"key": "setting.command_mode"}]
+  },
+  {
     "keys": ["b"],
     "command": "goto_open_file",
     "args": {"active_group": false},
@@ -89,14 +94,26 @@
    },
 
   {
+    "keys": ["B"],
+    "command": "goto_recent",
+    "context": [{"key": "setting.command_mode"}]
+   },
+
+  {
     "keys": ["f1"],
     "command": "git_status",
     "context": [{"key": "setting.command_mode"}]
   },
 
   {
+    "keys": ["r"],
+    "command": "git_branch",
+    "context": [{"key": "setting.command_mode"}]
+  },
+
+  {
     "keys": ["f2"],
-    "command": "git_add",
+    "command": "git_add_choice",
     "context": [{"key": "setting.command_mode"}]
   },
 

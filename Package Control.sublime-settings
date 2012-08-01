@@ -1,5 +1,5 @@
 {
-	"auto_upgrade_last_run": 1343791520,
+	"auto_upgrade_last_run": 1343796477,
 	"installed_packages":
 	[
 		"All Autocomplete",
@@ -12,6 +12,7 @@
 		"ERB Insert and Toggle Commands",
 		"Git",
 		"GotoOpenFile",
+		"GotoRecent",
 		"Haml",
 		"Handlebars",
 		"HTML5",
@@ -28,6 +29,7 @@
 		"Rails Latest Migration",
 		"Rails Partial",
 		"Rails Related Files",
+		"Rake",
 		"RSpec",
 		"RSpec (snippets and syntax)",
 		"Ruby Slim",
@@ -38,6 +40,7 @@
 		"Simple Rails Navigator",
 		"SplitScreen-Resizer",
 		"Stylus",
+		"Sublime File Navigator",
 		"sublime-split-navigation",
 		"SublimeBlockCursor",
 		"SublimeLinter",
