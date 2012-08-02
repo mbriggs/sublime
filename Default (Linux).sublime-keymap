@@ -147,7 +147,6 @@
   { "keys": ["alt+forward_slash"], "command": "toggle_comment", "args": { "block": false } },
   { "keys": ["alt+super+forward_slash"], "command": "toggle_comment", "args": { "block": true } },
 
-  { "keys": ["alt+j"], "command": "join_lines" },
   { "keys": ["alt+shift+d"], "command": "duplicate_line" },
 
   { "keys": ["ctrl+backquote"], "command": "show_panel", "args": {"panel": "console", "toggle": true} },

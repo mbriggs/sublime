@@ -2,7 +2,13 @@
   {
     "keys": ["tab"],
     "command": "reindent",
-    "context": [{"key": "setting.command_mode"}]
+    "context": [
+      {
+        "key": "auto_complete_visible",
+        "operator": "equal",
+        "operand": false
+      }
+    ]
   },
 
   {
@@ -116,7 +122,7 @@
   },
 
   {
-    "keys": ["super+j"],
+    "keys": ["alt+j"],
     "command": "split_navigation",
     "args": {"direction": "up"},
     "context": [{"key": "setting.command_mode"}]
@@ -192,6 +198,12 @@
     "keys": ["O"],
     "command": "rails_related_files",
     "args": { "index": -1 },
+    "context": [{"key": "setting.command_mode"}]
+  },
+
+  {
+    "keys": [",", ","],
+    "command": "toggle_last_view",
     "context": [{"key": "setting.command_mode"}]
   },
 
