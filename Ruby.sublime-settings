@@ -1,0 +1,11 @@
+{
+  "extensions": [
+    "Gemfile", 
+    "Vagrantfile", 
+    "Vagrantfile.ono_base",
+    "Vagrantfile.lead_playback",
+    "Vagrantfile.all",
+    "Thorfile",
+    "Guardfile"
+  ]
+}
