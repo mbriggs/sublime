@@ -1,0 +1,4 @@
+{
+	"last_test_file": "sheet_spec.rb",
+	"last_test_run": "cd /Users/matt/qcloud/ && bundle exec rspec --no-color spec/models/sheet_spec.rb"
+}

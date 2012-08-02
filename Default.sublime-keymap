@@ -206,6 +206,6 @@
   { "keys": [" ", "j"], "command": "list_rails_javascripts", "context": [{"key": "setting.command_mode"}] },
   { "keys": [" ", "s"], "command": "list_rails_stylesheets", "context": [{"key": "setting.command_mode"}] },
 
-  { "keys": ["ctrl+["], "command": "previous_edit" },
-  { "keys": ["ctrl+]"], "command": "next_edit" }
+  { "keys": ["ctrl+["], "command": "navigation_history_back" },
+  { "keys": ["ctrl+]"], "command": "navigation_history_back" }
   ]

@@ -1,5 +1,5 @@
 {
-	"auto_upgrade_last_run": 1343859270,
+	"auto_upgrade_last_run": 1343868631,
 	"installed_packages":
 	[
 		"All Autocomplete",
@@ -7,12 +7,11 @@
 		"Apidock",
 		"Backbone.js",
 		"Backbone.Marionette",
-		"Build on Save",
 		"Capybara Snippets",
 		"CTags",
-		"Edit History",
 		"ERB Insert and Toggle Commands",
 		"Git",
+		"GotoLastEdit",
 		"GotoOpenFile",
 		"GotoRecent",
 		"Guard",
@@ -27,13 +26,13 @@
 		"Local History",
 		"MakeExecutable",
 		"Modific",
+		"OpenSearchResult",
 		"Package Control",
 		"Pretty JSON",
 		"Rails Latest Migration",
 		"Rails Partial",
 		"Rails Related Files",
 		"Rake",
-		"RSpec",
 		"RSpec (snippets and syntax)",
 		"Ruby Slim",
 		"RubyTest",
@@ -46,12 +45,18 @@
 		"SplitScreen-Resizer",
 		"Stylus",
 		"Sublime File Navigator",
+		"sublime-navigation-history",
 		"sublime-split-navigation",
 		"SublimeBlockCursor",
 		"SublimeCodeIntel",
 		"SublimeLinter",
-		"SyncedSideBar",
 		"Tag",
 		"VintageEx"
+	],
+	"repositories":
+	[
+		"https://github.com/abrookins/GotoLastEdit",
+		"https://github.com/abrookins/OpenSearchResult",
+		"https://github.com/marram/sublime-navigation-history"
 	]
 }
