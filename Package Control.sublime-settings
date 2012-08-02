@@ -1,9 +1,8 @@
 {
-	"auto_upgrade_last_run": 1343882098,
+	"auto_upgrade_last_run": 1343917109,
 	"installed_packages":
 	[
 		"All Autocomplete",
-		"alternative_autocompletion",
 		"AngularJS",
 		"Apidock",
 		"Backbone.js",
@@ -24,6 +23,7 @@
 		"jQuery",
 		"jQuery Snippets pack",
 		"LESS",
+		"LiveReload",
 		"Local History",
 		"MakeExecutable",
 		"Modific",

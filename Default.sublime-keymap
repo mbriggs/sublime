@@ -1,18 +1,4 @@
 [
-  { "keys": ["tab"],
-    "command": "alternative_autocomplete",
-    "args": {"default": ""},
-    "context": [
-      { "key": "num_selections", "operator": "equal", "operand": 1 }
-    ]
-  },
-  { "keys": ["shift+tab"],
-    "command": "alternative_autocomplete",
-    "args": {"cycle": "previous"},
-    "context": [
-      { "key": "num_selections", "operator": "equal", "operand": 1 }
-    ]
-  },
   {
     "keys": ["tab"],
     "command": "reindent",
