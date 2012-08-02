@@ -50,13 +50,17 @@
 		"SublimeBlockCursor",
 		"SublimeCodeIntel",
 		"SublimeLinter",
+		"SublimeWebColors",
 		"Tag",
-		"VintageEx"
+		"VintageEx",
+		"Volcanoes",
+		"ZenCoding"
 	],
 	"repositories":
 	[
 		"https://github.com/abrookins/GotoLastEdit",
 		"https://github.com/abrookins/OpenSearchResult",
-		"https://github.com/marram/sublime-navigation-history"
+		"https://github.com/marram/sublime-navigation-history",
+		"https://bitbucket.org/sublimator/volcanoes"
 	]
 }
