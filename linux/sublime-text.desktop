@@ -1,0 +1,10 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Sublime Text
+Comment=Text Editor
+Exec=/opt/sublime-text/sublime_text
+Icon=/usr/share/pixmaps/xampp_sublimetext2.png
+Terminal=false
+Type=Application
+Categories=Programming;Development
+StartupNotify=false
