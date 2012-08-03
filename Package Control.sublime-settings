@@ -1,5 +1,4 @@
 {
-	"auto_upgrade_last_run": 1344002670,
 	"installed_packages":
 	[
 		"All Autocomplete",
@@ -14,7 +13,6 @@
 		"ERB Insert and Toggle Commands",
 		"Git",
 		"GotoLastEdit",
-		"GotoOpenFile",
 		"GotoRecent",
 		"Guard",
 		"Haml",

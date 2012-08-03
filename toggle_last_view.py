@@ -1,16 +1,16 @@
 import sublime_plugin
 
 
-previous_file = "foo"
-
-
 class ToggleLastViewListener(sublime_plugin.EventListener):
     def on_deactivated(self, view):
-        print user.previous_file
+        if view.file_name():
+            ToggleLastViewCommand.previous_file = view.file_name()
 
 
 class ToggleLastViewCommand(sublime_plugin.WindowCommand):
+    previous_file = None
+
     def run(self):
-        prev = self.window.settings().get("previous_file")
+        prev = self.previous_file
         if prev:
             self.window.open_file(prev)
