@@ -1,27 +1,16 @@
-import sublime
 import sublime_plugin
 
 
-class ViewToggler(object):
-  _instance = None
+previous_file = "foo"
+
 
 class ToggleLastViewListener(sublime_plugin.EventListener):
-  def on_deactivated(self, view):
-    view.window().run_command("toggle_last_view", { "view": view })
+    def on_deactivated(self, view):
+        print user.previous_file
 
 
 class ToggleLastViewCommand(sublime_plugin.WindowCommand):
-  def __init__(self, window):
-    sublime_plugin.WindowCommand.__init__(self, window)
-    self.lastView = None
-
-  def run(self, view=None):
-    if view:
-      sublime.status_message("SETTING")
-      self.lastView = view
-    else:
-      if self.lastView:
-        sublime.status_message("FOOOO")
-        self.window.focus_view(view)
-      else:
-        sublime.status_message("ARG")
+    def run(self):
+        prev = self.window.settings().get("previous_file")
+        if prev:
+            self.window.open_file(prev)
