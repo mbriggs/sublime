@@ -208,7 +208,7 @@
   },
 
   {
-    "keys": [",", ","],
+    "keys": [" ", " "],
     "command": "toggle_last_view",
     "context": [{"key": "setting.command_mode"}]
   },
