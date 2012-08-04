@@ -13,6 +13,7 @@
 		"ERB Insert and Toggle Commands",
 		"Git",
 		"GotoLastEdit",
+		"GotoOpenFile",
 		"GotoRecent",
 		"Guard",
 		"Haml",

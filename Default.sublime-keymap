@@ -12,6 +12,12 @@
   },
 
   {
+    "keys": [",", "g"],
+    "command": "add_to_globals",
+    "context": [{"key": "setting.command_mode"}]
+  }, // single test
+    
+  {
     "keys": [",", "t", "t"],
     "command": "run_single_ruby_test",
     "context": [{"key": "setting.command_mode"}]
