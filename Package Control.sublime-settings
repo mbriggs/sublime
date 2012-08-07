@@ -1,5 +1,5 @@
 {
-	"auto_upgrade_last_run": 1344344407,
+	"auto_upgrade_last_run": 1344358659,
 	"installed_packages":
 	[
 		"AdvancedNewFile",
@@ -61,7 +61,6 @@
 		"SublimeCodeIntel",
 		"SublimeLinter",
 		"SublimeWebColors",
-		"SyncedSideBar",
 		"Tag",
 		"Theme - Soda",
 		"VintageEx",

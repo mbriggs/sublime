@@ -1,7 +1,6 @@
 [
   { "keys": ["alt+shift+n"], "command": "new_window" },
   { "keys": ["alt+shift+w"], "command": "close_window" },
-  { "keys": ["alt+o"], "command": "prompt_open" },
   { "keys": ["alt+shift+t"], "command": "reopen_last_file" },
   { "keys": ["alt+super+up"], "command": "switch_file", "args": {"extensions": ["cpp", "cxx", "cc", "c", "hpp", "hxx", "h", "ipp", "inl", "m", "mm"]} },
   { "keys": ["alt+n"], "command": "new_file" },

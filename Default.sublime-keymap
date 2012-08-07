@@ -1,5 +1,15 @@
 [
   {
+    "keys": ["alt+o"],
+    "command": "prompt_open_file"
+  },
+
+  {
+    "keys": ["alt+q"],
+    "command": "exit"
+  },
+
+  {
     "keys": ["n", "f"],
     "command": "advanced_new_file",
     "context": [{ "key": "setting.command_mode" }]
