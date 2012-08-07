@@ -2,6 +2,6 @@
   <content><![CDATA[
 function(${1:args}){$0}
 ]]></content>
-  <tabTrigger>fn</tabTrigger>
-  <scope>source.javascript</scope>
+  <tabTrigger>fun</tabTrigger>
+  <scope>source.js</scope>
 </snippet>

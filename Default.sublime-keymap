@@ -1,10 +1,22 @@
 [
   {
+    "keys": ["n", "f"],
+    "command": "advanced_new_file",
+    "context": [{ "key": "setting.command_mode" }]
+  },
+
+  {
     "keys": ["tab"],
     "command": "reindent",
     "context": [
       {
         "key": "auto_complete_visible",
+        "operator": "equal",
+        "operand": false
+      },
+
+      {
+        "key": "has_next_field",
         "operator": "equal",
         "operand": false
       }
@@ -14,15 +26,17 @@
   {
     "keys": [",", "g"],
     "command": "add_to_globals",
-    "context": [{"key": "setting.command_mode"}]
-  }, // single test
-    
+    "context": [
+      { "key": "setting.command_mode" }
+    ]
+  },
+
   {
     "keys": [",", "t", "t"],
     "command": "run_single_ruby_test",
     "context": [{"key": "setting.command_mode"}]
   }, // single test
-    
+
   {
     "keys": [",", "t", "f"],
     "command": "run_all_ruby_test",
@@ -122,6 +136,12 @@
   },
 
   {
+    "keys": ["e"],
+    "command": "open_file_in_current_directory",
+    "context": [{"key": "setting.command_mode"}]
+  },
+
+  {
     "keys": ["!"],
     "command": "shell_prompt",
     "context": [{"key": "setting.command_mode"}]
@@ -141,7 +161,7 @@
   },
 
   {
-    "keys": ["e"],
+    "keys": ["E"],
     "command": "file_navigator",
     "context": [{"key": "setting.command_mode"}]
   },

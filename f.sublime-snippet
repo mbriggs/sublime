@@ -3,5 +3,5 @@
 function(){$0}
 ]]></content>
   <tabTrigger>f</tabTrigger>
-  <scope>source.javascript</scope>
+  <scope>source.js</scope>
 </snippet>

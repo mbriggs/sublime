@@ -20,6 +20,9 @@ task :install do
 
   puts "provide shortcut"
   sh "ln -s #{sublime_dir} ~/.sublime.d"
+
+  puts "get rid of existing js snippets"
+  sh "rm #{sublime_dir}/Packages/JavaScript/*.sublime-snippet"
 end
 
 task :link, :proj do |t, args|
@@ -34,14 +37,14 @@ end
 
 task :unlink, :proj do |t, args|
   target = "#{sublime_dir}/Packages/#{args[:proj]}"
-  
+
   sh "rm #{target}"
 
   puts "removed #{target}"
 end
 
 def sublime_dir
-  case 
+  case
   when on?("darwin") then "~/Library/Application\\ Support/Sublime\\ Text\\ 2"
   end
 end
