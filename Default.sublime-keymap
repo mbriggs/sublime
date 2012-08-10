@@ -10,6 +10,11 @@
   },
 
   {
+    "keys": [" ", "q"],
+    "command": "close_all"
+  },
+
+  {
     "keys": ["n", "f"],
     "command": "advanced_new_file",
     "context": [{ "key": "setting.command_mode" }]
