@@ -163,13 +163,6 @@
   },
 
   {
-    "keys": ["alt+j"],
-    "command": "split_navigation",
-    "args": {"direction": "up"},
-    "context": [{"key": "setting.command_mode"}]
-  },
-
-  {
     "keys": ["alt+."],
     "command": "navigate_to_definition",
     "context": [{"key": "setting.command_mode"}]
@@ -194,7 +187,7 @@
    },
 
   {
-    "keys": ["B"],
+    "keys": [" ", "b"],
     "command": "goto_recent",
     "context": [{"key": "setting.command_mode"}]
    },
@@ -206,32 +199,8 @@
   },
 
   {
-    "keys": ["r"],
+    "keys": ["B"],
     "command": "git_branch",
-    "context": [{"key": "setting.command_mode"}]
-  },
-
-  {
-    "keys": ["f2"],
-    "command": "git_add_choice",
-    "context": [{"key": "setting.command_mode"}]
-  },
-
-  {
-    "keys": ["f3"],
-    "command": "git_commit",
-    "context": [{"key": "setting.command_mode"}]
-  },
-
-  {
-    "keys": ["f4"],
-    "command": "git_push",
-    "context": [{"key": "setting.command_mode"}]
-  },
-
-  {
-    "keys": ["f5"],
-    "command": "git_pull",
     "context": [{"key": "setting.command_mode"}]
   },
 
@@ -243,7 +212,7 @@
   },
 
   {
-    "keys": [" ", " "],
+    "keys": [",", ","],
     "command": "toggle_last_view",
     "context": [{"key": "setting.command_mode"}]
   },
@@ -258,8 +227,5 @@
   { "keys": [" ", "x"], "command": "list_rails_fixtures", "context": [{"key": "setting.command_mode"}] },
   { "keys": [" ", "t"], "command": "list_rails_tests", "context": [{"key": "setting.command_mode"}] },
   { "keys": [" ", "j"], "command": "list_rails_javascripts", "context": [{"key": "setting.command_mode"}] },
-  { "keys": [" ", "s"], "command": "list_rails_stylesheets", "context": [{"key": "setting.command_mode"}] },
-
-  { "keys": ["ctrl+["], "command": "navigation_history_back" },
-  { "keys": ["ctrl+]"], "command": "navigation_history_back" }
+  { "keys": [" ", "s"], "command": "list_rails_stylesheets", "context": [{"key": "setting.command_mode"}] }
   ]
