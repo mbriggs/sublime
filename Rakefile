@@ -16,10 +16,10 @@ task :install do
 
   puts "link user folder"
   sh "rm -rf #{sublime_dir}/Packages/User"
-  sh "ln -s #{sublime_dir}/Packages/User ~/sublime"
+  sh "ln -s $HOME/sublime #{sublime_dir}/Packages/User"
 
   puts "provide shortcut"
-  sh "ln -s #{sublime_dir} ~/.sublime.d"
+  sh "ln -s #{sublime_dir} $HOME/.sublime.d"
 
   puts "get rid of existing js snippets"
   sh "rm #{sublime_dir}/Packages/JavaScript/*.sublime-snippet"
@@ -45,7 +45,7 @@ end
 
 def sublime_dir
   case
-  when on?("darwin") then "~/Library/Application\\ Support/Sublime\\ Text\\ 2"
+  when on?("darwin") then "$HOME/Library/Application\\ Support/Sublime\\ Text\\ 2"
   end
 end
 
