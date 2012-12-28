@@ -5,6 +5,12 @@
   },
 
   {
+    "keys": ["super+j"],
+    "command": "split_navigation",
+    "args": {"direction": "up"}
+  },
+
+  {
     "keys": ["alt+q"],
     "command": "exit"
   },
