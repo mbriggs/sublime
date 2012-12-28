@@ -1,5 +1,5 @@
 {
-	"auto_upgrade_last_run": 1344577934,
+	"auto_upgrade_last_run": null,
 	"installed_packages":
 	[
 		"AdvancedNewFile",
@@ -16,7 +16,9 @@
 		"Handlebars",
 		"HTML5",
 		"HTMLAttributes",
+		"Jade",
 		"Jasmine",
+		"JsFormat",
 		"LESS",
 		"LiveReload",
 		"Local History",
@@ -35,8 +37,11 @@
 		"Simple Rails Navigator",
 		"Stylus",
 		"Sublime File Navigator",
+		"sublime-split-navigation",
 		"SublimeCodeIntel",
 		"SublimeLinter",
+		"Surround",
+		"Vintage Surround",
 		"VintageEx"
 	]
 }
