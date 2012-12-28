@@ -4,6 +4,13 @@
 	"color_scheme": "Packages/User/themes/TomorrowNight.tmTheme",
 	"create_window_at_startup": false,
 	"detect_indentation": false,
+	"folder_exclude_pattern":
+	[
+		".svn",
+		".git",
+		".hg",
+		"node_modules"
+	],
 	"font_size": 16.0,
 	"highlight_line": true,
 	"ignored_packages":
@@ -27,5 +34,7 @@
 	"vintage_ctrl_keys": true,
 	"vintage_start_in_command_mode": true,
 	"vintage_use_system_clipboard": true,
-	"word_wrap": true
+	"word_wrap": true,
+  "hot_exit": false,
+  "remember_open_files": false
 }
