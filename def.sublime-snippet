@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+define("${1:module name}", function(module, exports){
+  $0
+});
+]]></content>
+  <tabTrigger>def</tabTrigger>
+  <scope>source.js</scope>
+</snippet>

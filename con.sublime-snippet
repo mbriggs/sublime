@@ -1,5 +1,5 @@
 <snippet>
-  <scope>source.javascript</scope>
+  <scope>source.js</scope>
   <tabTrigger>con</tabTrigger>
   <content><![CDATA[
 console.log(${1:args})${2:end}

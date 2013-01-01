@@ -1,7 +1,7 @@
 <snippet>
   <content><![CDATA[
-$j($0)
+var ${1:local name} = require("${2:module name}")
 ]]></content>
-  <tabTrigger>j</tabTrigger>
+  <tabTrigger>req</tabTrigger>
   <scope>source.js</scope>
 </snippet>
