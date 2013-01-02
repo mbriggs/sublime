@@ -7,7 +7,7 @@
 	"folder_exclude_pattern":
 	[
 		".svn",
-    ".bundle",
+		".bundle",
 		".git",
 		".hg",
 		"node_modules"
@@ -24,7 +24,35 @@
 	],
 	"indent_to_bracket": true,
 	"open_files_in_new_window": false,
-	"remember_open_files": false,
+	"open_related_patterns":
+	[
+		[
+			"*/test/*_test.rb",
+			"*/spec/*_spec.rb",
+      "*/app/*.rb"
+		],
+		[
+			"*/test/*_test.rb",
+			"*/spec/*_spec.rb",
+      "*/domain/*.rb"
+		],
+		[
+      "*/app/assets/javascripts/*.js",
+			"*/spec/javascripts/*_spec.js",
+			"*/spec/javascripts/*.spec.js"
+		]
+	],
+
+  "open_related_file_patterns":
+  [
+    ["*.spec.js", "*.js"],
+    ["*.test.js", "*.js"],
+    ["*_spec.js", "*.js"],
+    ["*_test.js", "*.js"],
+    ["*_spec.rb", "*.rb"],
+    ["*_test.rb", "*.rb"]
+  ],
+  "remember_open_files": false,
 	"rulers":
 	[
 		80,
