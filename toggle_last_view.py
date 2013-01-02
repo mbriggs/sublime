@@ -5,13 +5,9 @@ class ToggleLastViewListener(sublime_plugin.EventListener):
     deactivated = None
 
     def on_deactivated(self, view):
-        print 'deactivated'
-        print view
         self.deactivated = view
 
     def on_activated(self, view):
-        print 'ACTIVATED'
-        print view
         if (self.deactivated is not None) and (self.deactivated != view):
             ToggleLastViewCommand.last_view = self.deactivated
 
