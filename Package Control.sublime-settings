@@ -2,7 +2,6 @@
 	"auto_upgrade_last_run": null,
 	"installed_packages":
 	[
-		"AdvancedNewFile",
 		"All Autocomplete",
 		"Build on Save",
 		"CTags",
@@ -20,6 +19,7 @@
 		"LESS",
 		"LiveReload",
 		"Local History",
+		"Open Related",
 		"Package Control",
 		"Rails Latest Migration",
 		"Rails Partial",
