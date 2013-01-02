@@ -11,6 +11,11 @@
   },
 
   {
+    "keys": ["super+."],
+    "command": "goto_python_definition"
+  },
+
+  {
     "keys": ["alt+q"],
     "command": "exit"
   },
@@ -76,14 +81,24 @@
     "context": [{"key": "setting.command_mode"}]
   }, // show test panel
 
+  // {
+  //   "keys": [",", "t", ","],
+  //   "command": "switch_between_code_and_test",
+  //   "args": {"split_view": false},
+  //   "context" : [
+  //     { "key": "selector", "operator": "equal", "operand": "source.ruby", "match_all": true },
+  //     { "key": "setting.command_mode" }
+  //   ]
+  // },
   {
-    "keys": [",", "t", ","],
-    "command": "switch_between_code_and_test",
-    "args": {"split_view": false},
-    "context" : [
-      { "key": "selector", "operator": "equal", "operand": "source.ruby", "match_all": true },
-      { "key": "setting.command_mode" }
-    ]
+    "keys": ["super+t"],
+    "command": "open_related"
+  },
+
+  {
+    "keys": ["super+shift+t"],
+    "command": "open_related",
+    "args": { "clear_cache": true }
   },
 
   {
@@ -169,9 +184,8 @@
   },
 
   {
-    "keys": ["alt+."],
-    "command": "navigate_to_definition",
-    "context": [{"key": "setting.command_mode"}]
+    "keys": ["super+,"],
+    "command": "navigate_to_definition"
   },
 
   {
